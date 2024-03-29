@@ -14,7 +14,7 @@ function Result() {
 
     useEffect(() => {
         async function getResult() {
-            if (!formData) return;
+            if (!formData.regNo || !formData.dob) return;
             const resultFormat = {
                 "registerNo": formData.regNo,
                 "dateOfBirth": formData.dob,
