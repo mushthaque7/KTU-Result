@@ -1,8 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# KTU-Result
 
-Currently, two official plugins are available:
+Whenever KTU publishes a result, the site will be broken within minutes.In order to solve this problem , I created the result viewer. It help to view your result.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## To run the result viewer
+
+Clone the project
+
+```bash
+  git clone https://github.com/mushthaque7/KTU-Result.git
+```
+Go to the project directory
+
+```bash
+  cd KTU-Result
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
